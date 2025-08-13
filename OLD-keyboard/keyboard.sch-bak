@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Keyboard PCB"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F0:STM32F070C6Tx U?
+U 1 1 61BD89B0
+P 8000 3450
+F 0 "U?" H 7950 1861 50  0000 C CNN
+F 1 "STM32F070C6Tx" H 7950 1770 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7400 2050 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle J?
+U 1 1 61BD9F68
+P 5700 3200
+F 0 "J?" H 5807 4467 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 5807 4376 50  0000 C CNN
+F 2 "" H 5850 3200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5850 3200 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J?
+U 1 1 61BDC915
+P 9950 1800
+F 0 "J?" H 9507 1846 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 9507 1755 50  0000 R CNN
+F 2 "" H 9950 1800 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 9600 550 50  0001 C CNN
+	1    9950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61BDD4A6
+P 1800 2300
+F 0 "D?" H 1793 2516 50  0000 C CNN
+F 1 "LED" H 1793 2425 50  0000 C CNN
+F 2 "" H 1800 2300 50  0001 C CNN
+F 3 "~" H 1800 2300 50  0001 C CNN
+	1    1800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61BDDB25
+P 2350 4500
+F 0 "D?" H 2343 4716 50  0000 C CNN
+F 1 "LED" H 2343 4625 50  0000 C CNN
+F 2 "" H 2350 4500 50  0001 C CNN
+F 3 "~" H 2350 4500 50  0001 C CNN
+	1    2350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61BDDFBB
+P 3100 2950
+F 0 "D?" H 3093 3166 50  0000 C CNN
+F 1 "LED" H 3093 3075 50  0000 C CNN
+F 2 "" H 3100 2950 50  0001 C CNN
+F 3 "~" H 3100 2950 50  0001 C CNN
+	1    3100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 61BDFCC5
+P 4100 6400
+F 0 "D?" H 4100 6616 50  0000 C CNN
+F 1 "D_Zener" H 4100 6525 50  0000 C CNN
+F 2 "" H 4100 6400 50  0001 C CNN
+F 3 "~" H 4100 6400 50  0001 C CNN
+	1    4100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2021-12-18_07-23-51:MX1A-E1NW SW?
+U 1 1 61BE87BA
+P 2650 1550
+F 0 "SW?" H 2950 1813 60  0000 C CNN
+F 1 "MX1A-E1NW" H 2950 1707 60  0000 C CNN
+F 2 "SW_MX1A-E1NW_CHY" H 2950 1365 60  0001 C CNN
+F 3 "" H 2650 1550 60  0000 C CNN
+	1    2650 1550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

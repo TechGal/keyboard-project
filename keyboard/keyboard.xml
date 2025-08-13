@@ -1,0 +1,2529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/aila/Projects/keyboard-project/keyboard/keyboard.kicad_sch</source>
+    <date>Thu 16 Jun 2022 09:22:29 AM</date>
+    <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Keyboard PCB</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>keyboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>key_matrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74f40ccd-e24b-4ab4-8310-502edcd7cb2a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edc77b62-8d51-4ce5-9b46-51aaf037c80e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>27p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8acdbb51-de40-4736-8a0e-8dc51cef4cb9</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>27p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b78f2d13-d0d6-4c8f-bc3f-f7ffd0559e90</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05da91fb-4dd2-4e6a-a809-1388aaae5f14</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8654764f-3457-4fd8-a69d-a3f74b60b34e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96871853-6039-40fc-b523-c89f5cefa6bb</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6585f342-c525-4b46-a10e-a91069521b34</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96b0b4ab-716d-42ba-8b41-0f18156808ae</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab51bc93-1830-440e-ad8d-61972f471ebe</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c4dd47b-3a77-4006-95f5-57e31fd2a87f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6ff2817-dd0d-43db-8487-521ad3340481</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8ac92b9-555b-4aa6-b1fe-c5d19a8cc64a</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>559a5b87-c4d4-4d73-9fd1-dc0fa2ebe344</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c49e2358-d621-40d1-aa88-f8de1aefcedb</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a105c16e-cc4b-4571-8d93-fb50ec25e566</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e1c1c5e-6cf1-4b3d-b5c7-5d548316a011</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed2f15b9-ff0f-42ca-b6c4-eef00a745192</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a93ce293-8ba5-4677-9ce5-bfc3b4d6bc43</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19b41778-8915-4677-b690-f17ad759b43b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB4056-03-A</value>
+      <footprint>USB4056:USB4056-03-A</footprint>
+      <libsource lib="USB4056-USBC" part="USB4056-03-A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4abb530e-9c3e-478a-bdf4-bb20d57d0c17</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6eb68889-0248-4a8b-9149-62878b0d998f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5R1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15c47914-5100-4769-85e5-fe50e75e8256</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5R1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dfe23fa-c7a3-4f7f-939b-dbae4bf133ad</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfd8798d-21ea-468f-9cc9-36ef82a0522c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>27R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91628206-c8de-4107-8dd6-a1456cf09eb5</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>27R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>935fb173-76bc-4f98-8cec-fda4bc70a1e4</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79984d9f-1ffa-437c-8605-4b33461b62c6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>DNF</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b24df45f-b209-485a-a26f-883f43295686</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NCP1117-3.3_TO252</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="NCP1117-3.3_TO252" description="1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df370ee3-0803-4d4e-a23c-b991de8dfee0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RP2040</value>
+      <footprint>RP2040:RP2040-QFN-56</footprint>
+      <libsource lib="rp2040" part="RP2040" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c9de28</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <libsource lib="" part="W25Q128JVS_1" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03efeeaf-7c5d-4f02-8080-3a4dda762bcf</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal</value>
+      <footprint>Crystal:Crystal_HC18-U_Vertical</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf35c54b-09b3-4766-a3d1-4ef0431fbfd6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>9a6f617a-fecc-418e-9f31-7203889e0844</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>c7cf9a3b-f891-4852-9fcc-67c62326d96b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>dade13ca-0569-457b-a70d-54e6abd8163f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>bad6c296-1696-4a3d-81b0-d75c5db1c0b7</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0fc00bf3-ec74-466b-befa-a5b668004f5b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>94ec71a0-0768-4343-a616-e29779e6e56d</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2a63cdca-685f-44f5-8f7f-105cac8590ff</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>d817d84e-3a27-414d-ac1a-bb008c3a5e2f</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>097d6d22-9550-45e0-b21a-c3a3f96e375b</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2dd50a1b-fec6-44e9-938c-dede91eba553</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>70f8deea-319d-47c9-9b29-691c6ad6fe15</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0de67ef5-4a54-4737-84cf-0da9bce335d3</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>433472fd-5566-46fa-a597-b87a0a65c8e7</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>c1afc854-5638-4c32-bcbb-31ea75e80c9d</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>a2ed5053-7970-4dfa-8708-fcd00a79123b</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>c1d10fd2-2661-4548-add2-2e7e8e22fd3e</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>3d9c1716-ed34-4687-8154-b96ed808fa27</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4091e660-6817-4f0d-906f-cb9d1b7403c9</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>1d84b6b9-0637-4a9d-897c-882dbf6226e8</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>26f82dbe-3602-4ac6-b406-9c36cc6b5df1</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>218efcf0-8d19-46bb-a5b5-9bac365ed3aa</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>f7813abe-99d3-434f-a51b-a1ef9163c936</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>57d0a797-c29e-4554-9b5b-0f7583ede886</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2cd19898-2ce2-426d-89b4-955e2622b0c1</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>eeb82090-b3fd-4f87-aab7-ca8280f4eae2</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>794406fa-f82b-47a7-b8a5-cd9c95dad33c</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>29fce96b-4830-41c1-baae-88573790e3f3</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0f8d3350-4c07-458c-9ece-bdcefcd971b1</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>e7ecea69-dea4-433a-9dc0-6149991161b0</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>3665bdf3-982e-44ca-82f9-fb7e164921e6</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>40ec6894-44c9-4b1f-88ce-3fed176c8a4a</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>5878f33e-967f-4852-af07-39131882dd11</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>546ffbbf-bbed-4e63-85f6-84c6789b9d6c</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4cfa6028-f167-49bb-bbc5-52dbbcecc57a</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>e9cb14be-2066-4a30-bc31-87289874f0e7</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>fcb4df6e-753c-4244-b806-fcafbe99870b</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>223bff2c-cdb0-4e43-8484-a571fe4fd50d</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>be8134b9-4229-4f7a-92f5-6d4880c7135b</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0d393a6c-d12b-4b93-8723-2c3d2aa40702</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>b15f70a5-9b58-405e-97a5-d7679d6bccad</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4ef88bf0-2239-400f-b9f2-cd54862db3b7</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>51e5e553-540a-44f8-92f7-2eed1d634883</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>abbdceef-3ba3-43a8-85f5-e06deec46a20</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>a9c14298-e92d-4e43-8b67-e13b97b99c18</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2fc1f202-cf8b-4ce9-812f-cffee64f4928</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>a1345bda-c39b-4fcf-9531-cbcf31c05ff3</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>35a3b839-9bef-4c8f-8633-ef27464fd6d8</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>7a2bb958-626d-4175-92ed-accc6f33d09b</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>ec8b3eb7-57e2-4b81-aba1-1346f2cf47df</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>943de809-77e0-43d6-999e-b66d490789cf</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>7dab9a6a-6407-4545-a62d-404a6b83262e</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2e3fa486-b525-4dc6-9c57-2b3ccf70ed88</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>9e1d68ed-e174-4ed0-98fc-403c3efe5dcb</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>85748bf1-cb92-4dd0-879a-e1e5fdccd1ac</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>a7431a7c-c49f-4f31-bc41-520939165737</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>740e4948-5cbc-413d-8a6d-bd112102267c</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>480a492a-ff9a-418b-ae25-953535f1a660</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>66c72123-b9ca-4b9c-a526-d27e171912c2</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>3207676b-ec6a-44dd-833c-5c5052625338</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>76b397e7-3954-4f3e-a094-d206007fdf37</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>5f8bb8ea-8d5d-4f73-8f16-cc75542239ef</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2044d208-7f41-4af7-97a2-547985301345</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>61b2fc64-9f20-4d1a-a956-f4cd431249c7</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>45823260-2bdb-4830-9828-2506b74a9958</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>da0d5dbd-ff48-44bb-8624-ce6115de04f2</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4ffb18c8-2094-4386-a997-f14cc7cb1387</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>ab6014fe-5016-4813-8ad9-6d1826eab4e2</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>148a970b-769b-4191-9826-048c5e0ce223</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>ca7e9c7a-bd0d-47bc-9d72-89eecaf36a8f</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4a427fb9-aabf-48d9-9e17-14d31d07413c</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>7c6352ff-2874-4d70-97af-43c9d32b8330</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>dd1bb642-e639-4160-aa4a-7d120a7a5efc</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>5d0365f3-42b6-4375-a5a6-fc5365b6b064</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>b5b10acd-e368-43da-9ada-6330a045747d</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>00605b9d-9d87-4b1d-9dab-5b4604a80728</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>b22dc2d5-db04-4015-b753-91875d22cfb5</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4275cb6c-269c-4151-ba8c-32a34da57bcf</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>50494017-270e-44b9-a965-88054c7869fa</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0486173b-b7ee-44e8-aab8-f72acfaccc29</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>06eef87f-349c-4265-a231-9702c295b43a</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>5f723b89-68e2-40f7-9348-a6a3737e54ca</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0365e06e-5014-41be-b250-4d67cc08d3b6</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>7ad3f884-b3b0-4a87-ab9e-01bb7c89a1e1</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2a0638da-189b-4627-98ef-998e3bbf35f3</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>532f5069-3004-416e-8084-dc90dc0fa44e</tstamps>
+    </comp>
+    <comp ref="SW22">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>1ce5951e-4900-4d2c-aa60-22118c06ab95</tstamps>
+    </comp>
+    <comp ref="SW23">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>86b24fe3-25a6-4f64-af94-853bc06c750a</tstamps>
+    </comp>
+    <comp ref="SW24">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>69423294-eff5-4583-af39-65730483b333</tstamps>
+    </comp>
+    <comp ref="SW25">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>89eb76a7-c1fc-4c05-89af-664ec1cf1dc0</tstamps>
+    </comp>
+    <comp ref="SW26">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>b92f52aa-a216-4ffc-89c2-9c4dafc86a55</tstamps>
+    </comp>
+    <comp ref="SW27">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>70df7875-5f53-4759-90b2-64b029ed2686</tstamps>
+    </comp>
+    <comp ref="SW28">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0c2d9a92-994d-4c32-a1aa-dc4e19db0e5a</tstamps>
+    </comp>
+    <comp ref="SW29">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>406e7ecb-9b75-46fa-8196-c69399a20a91</tstamps>
+    </comp>
+    <comp ref="SW30">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4bad784b-89b1-4b34-9075-35a28b248db2</tstamps>
+    </comp>
+    <comp ref="SW31">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>72742f82-78ff-4cf4-aa7e-9b403e37cca7</tstamps>
+    </comp>
+    <comp ref="SW32">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4f287eeb-40ff-42a7-93d7-7063c2baed1f</tstamps>
+    </comp>
+    <comp ref="SW33">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0b4545de-f503-41bc-85b1-79938ec203f5</tstamps>
+    </comp>
+    <comp ref="SW34">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>502225ac-dce2-4f84-a8e4-7ef963158019</tstamps>
+    </comp>
+    <comp ref="SW35">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>eca88ddc-cbac-406b-b745-10d7c7777ea1</tstamps>
+    </comp>
+    <comp ref="SW36">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>5b8ce14c-a9e9-447b-aa36-5b043bd4e440</tstamps>
+    </comp>
+    <comp ref="SW37">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>0d4953c1-5ecc-436b-8882-62e91de801f9</tstamps>
+    </comp>
+    <comp ref="SW38">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>8844d60f-7d50-405b-9576-0b523ffd08ce</tstamps>
+    </comp>
+    <comp ref="SW39">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>10ca06e0-32e0-420b-94f0-e1a8d3747c3f</tstamps>
+    </comp>
+    <comp ref="SW40">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>c2d3384f-0847-4cf7-bb07-2f766173bf17</tstamps>
+    </comp>
+    <comp ref="SW41">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>e9fd58cc-9274-4557-b52c-7895f13aca6c</tstamps>
+    </comp>
+    <comp ref="SW42">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>b43d66a1-72b3-45aa-9997-bdb12a28b245</tstamps>
+    </comp>
+    <comp ref="SW43">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>295b2e24-9898-476a-b7e6-ecdf6c239d19</tstamps>
+    </comp>
+    <comp ref="SW44">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>6436cee8-aac3-46e1-9755-a0ca40f8c6b8</tstamps>
+    </comp>
+    <comp ref="SW45">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>6c5b4f19-30fd-4259-835c-516cb90d2b7c</tstamps>
+    </comp>
+    <comp ref="SW46">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>297b0b25-f090-4df7-8a19-214c7d7d0c4a</tstamps>
+    </comp>
+    <comp ref="SW47">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>d53b7e8d-4535-48ac-8337-f2d0245240c8</tstamps>
+    </comp>
+    <comp ref="SW48">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>042907b7-2481-45e9-aa84-1cd5b54c40d5</tstamps>
+    </comp>
+    <comp ref="SW49">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4f7ef842-4b12-4650-80b4-48f7cc2ac603</tstamps>
+    </comp>
+    <comp ref="SW50">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>24080690-7c2c-421e-9264-c469a00613ef</tstamps>
+    </comp>
+    <comp ref="SW51">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>55b84cb4-395b-4252-a790-b9f0dcd0732e</tstamps>
+    </comp>
+    <comp ref="SW52">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4d501b96-6f34-40b9-81e7-350833820913</tstamps>
+    </comp>
+    <comp ref="SW53">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>009b18b2-25ab-4394-b7f1-0e9c8ad25691</tstamps>
+    </comp>
+    <comp ref="SW54">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>8edbf0fd-a702-42c5-9e2c-5cc1032dcf05</tstamps>
+    </comp>
+    <comp ref="SW55">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>5e40aaa9-7d65-4db4-904a-8c56473a1708</tstamps>
+    </comp>
+    <comp ref="SW56">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>ab4d3cc6-46c6-4604-bd23-c61d13cacd62</tstamps>
+    </comp>
+    <comp ref="SW57">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>839d67c9-992b-4d9d-8bee-f180c82473d1</tstamps>
+    </comp>
+    <comp ref="SW58">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>f5cb255f-4c43-4f0d-ad2f-9752386c76e7</tstamps>
+    </comp>
+    <comp ref="SW59">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>50e83388-d157-4147-9b50-698eee4a2f3a</tstamps>
+    </comp>
+    <comp ref="SW60">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>4b398063-ea11-4195-8a64-45cefe2f4788</tstamps>
+    </comp>
+    <comp ref="SW61">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2871322f-193f-431d-9797-157df3b17ebf</tstamps>
+    </comp>
+    <comp ref="SW62">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2d49add9-f626-4c40-beb6-abf539c8ce3f</tstamps>
+    </comp>
+    <comp ref="SW63">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>2de7b24c-6922-462e-923b-2cb4eaad82b2</tstamps>
+    </comp>
+    <comp ref="SW64">
+      <value>MX1A</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB</footprint>
+      <libsource lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51" description=""/>
+      <property name="Sheetname" value="Key Matrix"/>
+      <property name="Sheetfile" value="key_matrix.kicad_sch"/>
+      <sheetpath names="/Key Matrix/" tstamps="/241ac9fb-1a19-4ba5-b8c4-51ee81709322/"/>
+      <tstamps>05fe445b-48c3-470e-bea4-ecdb1d87ac1a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="W25Q128JVS_1">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS_1</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="NCP1117-3.3_TO252">
+      <description>1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117-3.3_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB4056-USBC" part="USB4056-03-A">
+      <footprints>
+        <fp>CONN24_4056-03-A_GCT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4056-03-A</field>
+        <field name="Footprint">CONN24_4056-03-A_GCT</field>
+      </fields>
+      <pins>
+        <pin num="25" name="25" type="unspecified"/>
+        <pin num="26" name="26" type="unspecified"/>
+        <pin num="27" name="27" type="unspecified"/>
+        <pin num="28" name="28" type="unspecified"/>
+        <pin num="29" name="29" type="unspecified"/>
+        <pin num="A1" name="A1" type="unspecified"/>
+        <pin num="A2" name="A2" type="unspecified"/>
+        <pin num="A3" name="A3" type="unspecified"/>
+        <pin num="A4" name="A4" type="unspecified"/>
+        <pin num="A5" name="A5" type="unspecified"/>
+        <pin num="A6" name="A6" type="unspecified"/>
+        <pin num="A7" name="A7" type="unspecified"/>
+        <pin num="A8" name="A8" type="unspecified"/>
+        <pin num="A9" name="A9" type="unspecified"/>
+        <pin num="A10" name="A10" type="unspecified"/>
+        <pin num="A11" name="A11" type="unspecified"/>
+        <pin num="A12" name="A12" type="unspecified"/>
+        <pin num="B1" name="B1" type="unspecified"/>
+        <pin num="B2" name="B2" type="unspecified"/>
+        <pin num="B3" name="B3" type="unspecified"/>
+        <pin num="B4" name="B4" type="unspecified"/>
+        <pin num="B5" name="B5" type="unspecified"/>
+        <pin num="B6" name="B6" type="unspecified"/>
+        <pin num="B7" name="B7" type="unspecified"/>
+        <pin num="B8" name="B8" type="unspecified"/>
+        <pin num="B9" name="B9" type="unspecified"/>
+        <pin num="B10" name="B10" type="unspecified"/>
+        <pin num="B11" name="B11" type="unspecified"/>
+        <pin num="B12" name="B12" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard-rescue" part="MX1A-E1NW-2021-12-18_07-23-51">
+      <footprints>
+        <fp>SW_MX1A-E1NW_CHY</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MX1A-E1NW-2021-12-18_07-23-51</field>
+        <field name="Footprint">SW_MX1A-E1NW_CHY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="rp2040" part="RP2040">
+      <footprints>
+        <fp>IC57_RP2040</fp>
+        <fp>IC57_RP2040-M</fp>
+        <fp>IC57_RP2040-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">IC57_RP2040</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="unspecified"/>
+        <pin num="20" name="XIN" type="unspecified"/>
+        <pin num="21" name="XOUT" type="output"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="unspecified"/>
+        <pin num="25" name="SWDIO" type="unspecified"/>
+        <pin num="26" name="RUN" type="unspecified"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26/ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27/ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28/ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29/ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_VIN" type="unspecified"/>
+        <pin num="45" name="VREG_VOUT" type="output"/>
+        <pin num="46" name="USB_DM" type="unspecified"/>
+        <pin num="47" name="USB_DP" type="unspecified"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="unspecified"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS_N" type="unspecified"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/aila/.local/share/kicad/6.0/symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/aila/.local/share/kicad/6.0/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/home/aila/.local/share/kicad/6.0/symbols/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/home/aila/.local/share/kicad/6.0/symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/home/aila/.local/share/kicad/6.0/symbols/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="USB4056-USBC">
+      <uri>/home/aila/Projects/kicad-extras/USB4056-03-A/USB4056-USBC.kicad_sym</uri>
+    </library>
+    <library logical="keyboard-rescue">
+      <uri>/home/aila/Projects/keyboard-project/keyboard/keyboard-rescue.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U2" pin="45" pinfunction="VREG_VOUT" pintype="output"/>
+      <node ref="U2" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U2" pin="44" pinfunction="VREG_VIN" pintype="unspecified"/>
+      <node ref="U2" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U2" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="/Key Matrix/C1">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/Key Matrix/C2">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Key Matrix/C3">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Key Matrix/C4">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/Key Matrix/C5">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Key Matrix/C6">
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Key Matrix/C7">
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Key Matrix/C8">
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Key Matrix/C9">
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Key Matrix/C10">
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Key Matrix/C11">
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D42" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Key Matrix/C12">
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Key Matrix/C13">
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Key Matrix/C14">
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D54" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D56" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/Key Matrix/C15">
+      <node ref="D57" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D58" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D60" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/Key Matrix/C16">
+      <node ref="D61" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D63" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Key Matrix/R1">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW17" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW21" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW25" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW29" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW33" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW37" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW41" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW45" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW49" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW53" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW57" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW61" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/Key Matrix/R2">
+      <node ref="SW10" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW14" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW18" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW22" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW26" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW30" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW34" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW38" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW42" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW46" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW50" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW54" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW58" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW62" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/Key Matrix/R3">
+      <node ref="SW11" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW23" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW27" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW31" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW35" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW39" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW43" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW47" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW51" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW55" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW59" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW63" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/Key Matrix/R4">
+      <node ref="SW12" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW16" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW24" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW28" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW32" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW36" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW40" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW44" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW48" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW52" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW56" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW60" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW64" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/QSPI_SCKL">
+      <node ref="U3" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="24" name="/QSPI_SCLK">
+      <node ref="U2" pin="52" pinfunction="QSPI_SCLK" pintype="unspecified"/>
+    </net>
+    <net code="25" name="/QSPI_SD0">
+      <node ref="U2" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/QSPI_SD1">
+      <node ref="U2" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/QSPI_SD2">
+      <node ref="U2" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/QSPI_SD3">
+      <node ref="U2" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/QSPI_SS">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="56" pinfunction="QSPI_SS_N" pintype="unspecified"/>
+      <node ref="U3" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="30" name="/RUN">
+      <node ref="U2" pin="26" pinfunction="RUN" pintype="unspecified"/>
+    </net>
+    <net code="31" name="/USB_D+">
+      <node ref="J1" pin="A6" pinfunction="A6" pintype="unspecified"/>
+      <node ref="J1" pin="B6" pinfunction="B6" pintype="unspecified"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/USB_D-">
+      <node ref="J1" pin="A7" pinfunction="A7" pintype="unspecified"/>
+      <node ref="J1" pin="B7" pinfunction="B7" pintype="unspecified"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/XIN">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="XIN" pintype="unspecified"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="/XOUT">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="XOUT" pintype="output"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="A1" pintype="unspecified"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="TESTEN" pintype="unspecified"/>
+      <node ref="U2" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="36" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="38" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="39" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="40" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="41" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="42" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="43" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="44" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="45" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="46" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="47" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="48" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="49" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="50" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="51" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="52" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="53" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="54" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="55" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="56" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="57" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="58" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="59" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="60" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW24" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="61" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW25" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="62" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW26" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="63" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW27" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="64" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW28" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="65" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW29" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="66" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW30" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="67" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW31" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="68" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW32" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="69" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW33" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="70" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW34" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="71" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW35" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="72" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW36" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="73" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW37" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="74" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW38" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="75" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW39" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="76" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW40" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="77" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW41" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="78" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW42" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="79" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW43" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="80" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW44" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="81" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW45" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="82" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW46" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="83" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW47" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="84" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW48" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="85" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW49" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="86" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW50" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="87" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW51" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="88" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW52" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="89" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW53" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="90" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW54" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="91" name="Net-(D55-Pad2)">
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW55" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="92" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW56" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="93" name="Net-(D57-Pad2)">
+      <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW57" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="94" name="Net-(D58-Pad2)">
+      <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW58" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="95" name="Net-(D59-Pad2)">
+      <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW59" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="96" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW60" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="97" name="Net-(D61-Pad2)">
+      <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW61" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="98" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW62" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="99" name="Net-(D63-Pad2)">
+      <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW63" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="100" name="Net-(D64-Pad2)">
+      <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW64" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="101" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="A5" pintype="unspecified"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="B5" pintype="unspecified"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="46" pinfunction="USB_DM" pintype="unspecified"/>
+    </net>
+    <net code="105" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="47" pinfunction="USB_DP" pintype="unspecified"/>
+    </net>
+    <net code="106" name="VBUS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="A4" pintype="unspecified"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="107" name="unconnected-(J1-Pad25)">
+      <node ref="J1" pin="25" pinfunction="25" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J1-Pad26)">
+      <node ref="J1" pin="26" pinfunction="26" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J1-Pad27)">
+      <node ref="J1" pin="27" pinfunction="27" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J1-Pad28)">
+      <node ref="J1" pin="28" pinfunction="28" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J1-Pad29)">
+      <node ref="J1" pin="29" pinfunction="29" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J1-PadA2)">
+      <node ref="J1" pin="A2" pinfunction="A2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J1-PadA3)">
+      <node ref="J1" pin="A3" pinfunction="A3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="A8" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J1-PadA9)">
+      <node ref="J1" pin="A9" pinfunction="A9" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J1-PadA10)">
+      <node ref="J1" pin="A10" pinfunction="A10" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J1-PadA11)">
+      <node ref="J1" pin="A11" pinfunction="A11" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J1-PadA12)">
+      <node ref="J1" pin="A12" pinfunction="A12" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J1-PadB1)">
+      <node ref="J1" pin="B1" pinfunction="B1" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J1-PadB2)">
+      <node ref="J1" pin="B2" pinfunction="B2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J1-PadB3)">
+      <node ref="J1" pin="B3" pinfunction="B3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J1-PadB4)">
+      <node ref="J1" pin="B4" pinfunction="B4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J1-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="B8" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(J1-PadB9)">
+      <node ref="J1" pin="B9" pinfunction="B9" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(J1-PadB10)">
+      <node ref="J1" pin="B10" pinfunction="B10" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(J1-PadB11)">
+      <node ref="J1" pin="B11" pinfunction="B11" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(J1-PadB12)">
+      <node ref="J1" pin="B12" pinfunction="B12" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U2-Pad24)">
+      <node ref="U2" pin="24" pinfunction="SWCLK" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U2-Pad25)">
+      <node ref="U2" pin="25" pinfunction="SWDIO" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U2-Pad31)">
+      <node ref="U2" pin="31" pinfunction="GPIO20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U2-Pad32)">
+      <node ref="U2" pin="32" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U2-Pad34)">
+      <node ref="U2" pin="34" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U2-Pad35)">
+      <node ref="U2" pin="35" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U2-Pad36)">
+      <node ref="U2" pin="36" pinfunction="GPIO24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U2-Pad37)">
+      <node ref="U2" pin="37" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U2-Pad38)">
+      <node ref="U2" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U2-Pad39)">
+      <node ref="U2" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U2-Pad40)">
+      <node ref="U2" pin="40" pinfunction="GPIO28/ADC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U2-Pad41)">
+      <node ref="U2" pin="41" pinfunction="GPIO29/ADC3" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

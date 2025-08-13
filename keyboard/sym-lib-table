@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "keyboard-rescue")(type "KiCad")(uri "${KIPRJMOD}/keyboard-rescue.kicad_sym")(options "")(descr ""))
+)
